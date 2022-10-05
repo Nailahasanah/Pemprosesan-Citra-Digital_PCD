@@ -132,3 +132,43 @@ Gambar 4.5 menunjukkan contoh operasi dithering.
     <img src="foto2/gambar5.png" >
 </p>
 
+<br>
+
+## Menentukan Pola Patterning dan Dithering
+
+- Patterning
+ 
+ <p align="center">
+    <img src="foto2/gambar2.png" >
+</p>
+
+ Untuk Menentukan pola patterning dengan menghitung banyaknya font binner terlebih dahulu kemudian ditambahkan 1.Pola yang ada pada patterning tidak boleh sama dan pola yang sudah ada tidak digunakan lagi.
+
+- Dithering
+
+<p align="center">
+    <img src="foto2/dithering.png" >
+</p>
+<br>
+
+Penggunaan dithering yang umum adalah mengonversi gambar skala abu-abu menjadi hitam putih.Sehingga kerapatan titik-titik hitam pada gambar baru mendekati tingkat keabuan rata-rata pada aslinya.
+
+## Cara menentukan matriks treshold pada dithering
+Thresholding merupakan salah satu metode segmentasi citra di mana prosesnya didasarkan pada perbedaan derajat keabuan citra.
+
+
+Algoritme mengurangi jumlah warna dengan menerapkan peta ambang M ke piksel yang ditampilkan, menyebabkan beberapa piksel berubah warna, tergantung pada jarak warna asli dari entri warna yang tersedia di palet yang dikurangi.
+
+Peta ambang batas datang dalam berbagai ukuran, yang biasanya merupakan kekuatan dua:
+
+<p align="center">
+    <img src="foto2/matriks.jpeg" >
+</p>
+
+Peta dapat diputar atau dicerminkan tanpa mempengaruhi efektivitas algoritma. Peta ambang batas ini (untuk sisi dengan panjang pangkat dua ) juga dikenal sebagai matriks indeks atau matriks Bayer . 
+
+
+## Kenapa pola dither lebih kecil tidak sebagus pola dither yang lebih bagus ukurannya.
+
+Citra keluaran dari proses ordered dithering menunjukkan kualitas yang lebih baik dibandingkan dengan metode ambang batas (thresholding). Perbedaan antara keluaran yang dihasilkan antara citra menggunakan 2x2 matriks dithering dan 4x4 matriks dithering terletak pada sensitifitas nilai piksel aslinya. Citra yang dihasilkan dari penggunaaan matriks 2x2 memiliki pola halftone yang kurang dibandingkan dengan citra yang diproses menggunakan matriks dithering 4x4.Karena itu hasil dari citra dengan 2x2 matriks dithering memiliki banyak daerah dengan pola yang sama, seperti pada bagian latar belakang, rambut, dan hidung, meskipun pada daerah ini mengandung lebih banyak jenis nilai piksel. 
+
