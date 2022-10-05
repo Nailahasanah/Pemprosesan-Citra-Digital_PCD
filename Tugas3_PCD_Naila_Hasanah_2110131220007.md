@@ -9,7 +9,7 @@
 <br>
 <br>
 
-# 3 Metode Gray Scale
+# Metode Gray Scale
 <p align = "justify">
 Grayscale adalah warna perpaduan antara hitam dengan putih, yang mana graycale nantinya juga memiliki tingkat derajat keabuan tersendiri. 
 </p>
@@ -31,13 +31,32 @@ Rumus matematisnya adalah :
 
 Grayscale = (R + G + B) / 3 
 
-3 . Luminosity
+
+
+3 . Luminosity 
 <p align = "justify">
 Algoritmanya adalah dengan mengalikan setiap nilai R G B dengan konstanta tertentu yang sudah ditetapkan nilainya, kemudian hasil perkalian seluruh nilai R G B dijumlahkan satu sama lain. 
 </p>
 Rumus matematisnya adalah :
 
 Grayscale = (0.3 * R) + (0.59 * G) + (0.11* B)
+
+**Berikut kode Editor untuk Membuat Grayscale :**
+
+<p align="center">
+    <img src="foto2/kode.png" >
+</p>
+
+**Eksplorasi Grayscale dengan Metode Lightness,average,Luminosity :**
+<p align="center">
+    <img src="foto2/grayscale.png" >
+</p>
+
+## Histogram :
+
+<p align="center">
+    <img src="foto2/histogram.png" >
+</p>
 
 <br>
 <br>
@@ -112,3 +131,4 @@ Gambar 4.5 menunjukkan contoh operasi dithering.
 <p align="center">
     <img src="foto2/gambar5.png" >
 </p>
+
