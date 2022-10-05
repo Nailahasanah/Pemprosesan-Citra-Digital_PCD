@@ -44,18 +44,18 @@ Grayscale = (0.3 * R) + (0.59 * G) + (0.11* B)
 **Berikut kode Editor untuk Membuat Grayscale :**
 
 <p align="center">
-    <img src="foto2/kode.PNG" >
+    <img src="foto2/kode.png" >
 </p>
 
 **Eksplorasi Grayscale dengan Metode Lightness,average,Luminosity :**
 <p align="center">
-    <img src="foto2/grayscale.PNG" >
+    <img src="foto2/grayscale.png" >
 </p>
 
 ## Histogram :
 
 <p align="center">
-    <img src="foto2/histogram.PNG" >
+    <img src="foto2/histogram.png" >
 </p>
 
 <br>
