@@ -33,16 +33,47 @@ Tiga tujuan utama dari bit plane slicing adalah:
 - Mewakili gambar dengan bit lebih sedikit dan menyesuaikan gambar ke ukuran yang lebih kecil
 - Meningkatkan gambar dengan memfokuskan.
 
-## Kode Program :
+## Eksplorasi Bit Plane Slicing Pada Octave :
 
-- Kita dapat melakukan metode bit-plane slicing pada citra grayscale dengan
-menggunakan fungsi bitget.
+## Gambar Gray Scale :
 
-## Hasil Program:
+<p align="center">
+    <img src="foto2/babon gs.png" >
+</p>
+
+## Kode Program pada Octave :
+
+
+- Kita dapat melakukan metode bit-plane slicing pada citra grayscale dengan menggunakan fungsi bitget.
+- kode program untuk mengubah setiap elemen pada matriks gray_img yang berbentuk desimal menjadi bentuk biner , kemudian mengambil bit –bitnya untuk dibuat 8 matriks baru.
+
+<p align="center">
+    <img src="foto2/babon.png" >
+</p>
+
+
+- kode program berisi perintah title digunakan untuk memberi judul pada plot, perintah imshow yang digunakan untuk menampilkan citra, dan perintah 
+subplot yang berfungsi untuk menggambar banyak plot dalam satu gambar
+
+
+<p align="center">
+    <img src="foto2/kode bps_1.png" >
+</p>
+
+## Hasil Gambar Bit Plane Slicing :
+
+<p align="center">
+    <img src="foto2/bps.png" >
+</p>
+
+<br>
+<br>
+
 
 # Steganografi
 
-Steganografi merupakan teknik menyembunyikan pesan di dalam suatu media penyisipan pesan atau cover image, sehingga keberadaan pesan rahasia yang disisipkan tidak dapat dilihat secara langsung.Tujuan dari steganografi adalah merahasiakan atau menyembunyikan keberadaan dari sebuah pesan tersembunyi atau sebuah informasi.
+<p align ="justify">
+Steganografi merupakan teknik menyembunyikan pesan di dalam suatu media penyisipan pesan atau cover image, sehingga keberadaan pesan rahasia yang disisipkan tidak dapat dilihat secara langsung.Tujuan dari steganografi adalah merahasiakan atau menyembunyikan keberadaan dari sebuah pesan tersembunyi atau sebuah informasi.</p>
 Data yang disembunyikan dapat berupa:
 - Gambar
 - Teks
